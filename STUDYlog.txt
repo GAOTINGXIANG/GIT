@@ -1,0 +1,9 @@
+git init	第一次新建文件时初始化仓库
+git add .	缓存所有文件
+git commit -m "修改说明"	提交缓存并可备注
+git reset --hard HEAD^	回退到上一个版本
+git reset --hart 版本号	回退到指定版本
+(需要先使用git log --oneline拿到前六位版本号)
+git status	查看状态
+
+
